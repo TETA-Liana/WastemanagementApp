@@ -4,6 +4,7 @@ package com.management.wastemanagement.services;
 
 import com.management.wastemanagement.models.User;
 import com.management.wastemanagement.repository.UserRepository;
+import org.hibernate.query.derived.CteTupleTableGroupProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
