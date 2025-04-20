@@ -7,6 +7,9 @@ public class Address {
     private String village;
     private String cell;
 
+    public Address() {
+    } // ✅ Required no-args constructor
+
     public Address(String district, String sector, String village, String cell) {
         this.district = district;
         this.sector = sector;
